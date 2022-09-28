@@ -1,13 +1,4 @@
 # FadulSikder-Hierarchical-Multi-Clustering-guided-KNN-Classification-for-Seed-Categorization
-**Final Project Report**
-
-**Name: Fadul Sikder**
-
-**UTA ID – 1001965359**
-
-**Project Name:**
-
-Hierarchical Multi Clustering guided KNN Classification for Seed Categorization
 
 **Description:**
 
@@ -30,10 +21,8 @@ are average (weighted average), single, and complete. Then, I created a new colu
 vector for each type of clustering and added the cluster id of each data point in that new column.
 
 Below, we can see the three new columns added to the original dataset.
-
-
-
-
+![My Image](images/my-image1.png)
+![My Image](images/my-image2.jpg)
 
 \2. After this, I calculated two parameters to determine the similarity between clusters and a data point.
 
@@ -45,11 +34,7 @@ in proportion to their combine item numbers. Given a data point the following eq
 
 the parameters. For a data point D(i) we get the similarity coefficient,
 
-퐶푎푣푒푟푎푔푒 ∩ 퐶푠푖푛푔푙푒 ∩ 퐶퐶표푚푝푙푒푡푒
-
-SCi=
-
-퐶푎푣푒푟푎푔푒 ∪ 퐶푠푖푛푔푙푒 ∪ 퐶퐶표푚푝푙푒푡푒
+![My Image](images/my-image3.png)
 
 \3. Additionally, another similarity measurement is calculated by the cluster member voting
 
@@ -59,17 +44,7 @@ by summing up the inverse of the distance between that data point and all other 
 
 particular cluster. For a data point D(i) we get the Vote,
 
-
-
-
-
-1
-
-∑
-
-V(i,j) =
-
-푒푎푐ℎ 푐푙푢ꢁꢃ푒푟 푚푒푚푏푒푟ꢁ 푑ꢀꢁꢃ푎ꢂ푐푒 푓푟표푚 ꢃℎ푎ꢃ 푝표ꢀꢂꢃ
+![My Image](images/my-image4.png)
 
 \4. This two-similarity measurement is encoded in the data point in place of their respective cluster id.
 
@@ -115,104 +90,6 @@ Vote from cluster\_algo member+ cluster similarity coefficient
 
 Using this equation to consider similarity information we get the following result:
 
-**Cluster**
-
-**K = 3**
-
-**K = 5**
-
-**K = 7**
-
-**Number**
-
-**0**
-
-**88.99**
-
-**88.99**
-
-**98.56**
-
-**99.04**
-
-**98.56**
-
-**98.56**
-
-**99.04**
-
-**98.56**
-
-**100.0**
-
-**99.04**
-
-**99.52**
-
-**88.03**
-
-**88.03**
-
-**98.56**
-
-**99.04**
-
-**97.12**
-
-**98.56**
-
-**98.56**
-
-**100.0**
-
-**100.0**
-
-**98.56**
-
-**, 100.0**
-
-**88.03**
-
-**4**
-
-**88.03**
-
-**98.56**
-
-**99.04**
-
-**98.08**
-
-**99.04**
-
-**98.56**
-
-**98.56**
-
-**100.0**
-
-**98.08**
-
-**100.0**
-
-**6**
-
-**8**
-
-**12**
-
-**16**
-
-**20**
-
-**24**
-
-**27**
-
-**30**
-
-**60**
-
 
 
 
@@ -220,104 +97,6 @@ Using this equation to consider similarity information we get the following resu
 Di[cluster\_algo] = Vote from cluster\_algomember × cluster similarity coefficient
 
 Using this equation to consider similarity information we get the following result:
-
-**Cluster**
-
-**K = 3**
-
-**K = 5**
-
-**K = 7**
-
-**Number**
-
-**0**
-
-**88.99**
-
-**87.55**
-
-**94.73**
-
-**99.04**
-
-**98.08**
-
-**98.08**
-
-**99.04**
-
-**99.04**
-
-**98.65**
-
-**99.04**
-
-**99.52**
-
-**88.03**
-
-**90.43**
-
-**95.21**
-
-**98.56**
-
-**99.52**
-
-**99.52**
-
-**99.52**
-
-**99.04**
-
-**99.04**
-
-**98.56**
-
-**98.56**
-
-**88.03**
-
-**4**
-
-**89.95**
-
-**95.21**
-
-**98.08**
-
-**98.56**
-
-**98.56**
-
-**99.04**
-
-**99.04**
-
-**99.04**
-
-**99.04**
-
-**99.04**
-
-**6**
-
-**8**
-
-**12**
-
-**16**
-
-**20**
-
-**24**
-
-**27**
-
-**30**
-
-**60**
 
 In both table, first row has the KNN classification accuracy for the original data without clustering. The
 

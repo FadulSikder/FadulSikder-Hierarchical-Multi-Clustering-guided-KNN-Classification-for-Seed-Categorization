@@ -12,7 +12,7 @@ to categorize the seeds.
 
 **Procedures:**
 
-\1. First, I have used Hierarchical Clustering with three different linkage criteria to generate a new
+1. First, I have used Hierarchical Clustering with three different linkage criteria to generate a new
 
 feature vector that adds the cluster labels with the original feature vector. The three linkage criteria
 
@@ -26,7 +26,7 @@ Below, we can see the three new columns added to the original dataset.
 
 ![My Image](images/my-image2.jpg)
 
-\2. After this, I calculated two parameters to determine the similarity between clusters and a data point.
+2. After this, I calculated two parameters to determine the similarity between clusters and a data point.
 
 The first parameter obtains the similarity measurement between clusters to which the data point
 
@@ -38,7 +38,7 @@ the parameters. For a data point D(i) we get the similarity coefficient,
 
 ![My Image](images/my-image3.png)
 
-\3. Additionally, another similarity measurement is calculated by the cluster member voting
+3. Additionally, another similarity measurement is calculated by the cluster member voting
 
 mechanism. Each data point gets a vote from each of the clusters they belong. The vote is calculated
 
@@ -48,7 +48,7 @@ particular cluster. For a data point D(i) we get the Vote,
 
 ![My Image](images/my-image4.png)
 
-\4. This two-similarity measurement is encoded in the data point in place of their respective cluster id.
+4. This two-similarity measurement is encoded in the data point in place of their respective cluster id.
 
 I experimented with a couple of formulas to encode those similarities information.
 

@@ -26,52 +26,32 @@ After applying cluster:
 
 ![My Image](images/my-image5.png)
 
-\5. With this we get new feature vector.
+5. With this we get new feature vector.
 
 ![My Image](images/my-image6.png)
 
-\6. Subsequently, this new feature vector has been used to perform KNN classification.
+6. Subsequently, this new feature vector has been used to perform KNN classification.
 
-
-
-
-
-\7. I used several cluster numbers and three KNN value to generate the prediction accuracy for seed
-
-species.
+7. I used several cluster numbers and three KNN value to generate the prediction accuracy for seed species.
 
 **Result:**
 
-1
-
-Di[cluster\_algo] =
-
-Vote from cluster\_algo member+ cluster similarity coefficient
+![My Image](images/my-image7.png)
 
 Using this equation to consider similarity information we get the following result:
 
+![My Image](images/my-image8.png)
 
 
 
-
-Di[cluster\_algo] = Vote from cluster\_algomember × cluster similarity coefficient
+![My Image](images/my-image9.png)
 
 Using this equation to consider similarity information we get the following result:
 
-In both table, first row has the KNN classification accuracy for the original data without clustering. The
+![My Image](images/my-image10.png)
 
-other rows contain prediction accuracy with different numbers of clusters. Here we can see that we are
-
-getting significantly higher accuracy with the Hierarchical Multi Clustering guided KNN Classification
-
-than only KNN classification without clustering.
-
-
-
-
+In both table, first row has the KNN classification accuracy for the original data without clustering. The other rows contain prediction accuracy with different numbers of clusters. Here we can see that we are getting significantly higher accuracy with the Hierarchical Multi Clustering guided KNN Classification than only KNN classification without clustering.
 
 **Conclusion:**
 
-From the result we can conclude that guiding KNN Classification with Hierarchical multi clustering we can
-
-improve the prediction accuracy significantly.
+From the result we can conclude that guiding KNN Classification with Hierarchical multi clustering we can improve the prediction accuracy significantly.

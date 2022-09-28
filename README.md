@@ -10,7 +10,7 @@ This seed categorization project utilizes Hierarchical Clustering and KNN to ach
 
 ![My Image](images/my-image1.png)
 
-After applying cluster:
+  After applying cluster:
 
 ![My Image](images/my-image2.png)
 

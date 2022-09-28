@@ -12,27 +12,17 @@ This seed categorization project utilizes Hierarchical Clustering and KNN to ach
 
 After applying cluster:
 
-![My Image](images/my-image2.jpg)
+![My Image](images/my-image2.png)
 
 2. After this, I calculated two parameters to determine the similarity between clusters and a data point. The first parameter obtains the similarity measurement between clusters to which the data point belongs. To measure this, we calculate how many item intersections the clusters have among them in proportion to their combine item numbers. Given a data point the following equation gives us the parameters. For a data point D(i) we get the similarity coefficient,
 
 ![My Image](images/my-image3.png)
 
-3. Additionally, another similarity measurement is calculated by the cluster member voting
-
-mechanism. Each data point gets a vote from each of the clusters they belong. The vote is calculated
-
-by summing up the inverse of the distance between that data point and all other members of a
-
-particular cluster. For a data point D(i) we get the Vote,
+3. Additionally, another similarity measurement is calculated by the cluster member votingmechanism. Each data point gets a vote from each of the clusters they belong. The vote is calculated by summing up the inverse of the distance between that data point and all other members of a particular cluster. For a data point D(i) we get the Vote,
 
 ![My Image](images/my-image4.png)
 
-4. This two-similarity measurement is encoded in the data point in place of their respective cluster id.
-
-I experimented with a couple of formulas to encode those similarities information.
-
-For datapoint di,
+4. This two-similarity measurement is encoded in the data point in place of their respective cluster id. I experimented with a couple of formulas to encode those similarities information. For datapoint di,
 
 1
 

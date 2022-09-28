@@ -2,25 +2,11 @@
 
 **Description:**
 
-This seed categorization project utilizes Hierarchical Clustering and KNN to achieve high accuracy in
-
-predicting the correct seed. First, I applied three hierarchical clustering using different linkage criteria on
-
-the dataset. Then, with that clustering, I built a new feature vector upon which I applied KNN classification
-
-to categorize the seeds.
+This seed categorization project utilizes Hierarchical Clustering and KNN to achieve high accuracy in predicting the correct seed. First, I applied three hierarchical clustering using different linkage criteria on the dataset. Then, with that clustering, I built a new feature vector upon which I applied KNN classification to categorize the seeds.
 
 **Procedures:**
 
-1. First, I have used Hierarchical Clustering with three different linkage criteria to generate a new
-
-feature vector that adds the cluster labels with the original feature vector. The three linkage criteria
-
-are average (weighted average), single, and complete. Then, I created a new column in the feature
-
-vector for each type of clustering and added the cluster id of each data point in that new column.
-
-Below, we can see the three new columns added to the original dataset.
+1. First, I have used Hierarchical Clustering with three different linkage criteria to generate a new feature vector that adds the cluster labels with the original feature vector. The three linkage criteria are average (weighted average), single, and complete. Then, I created a new column in the feature vector for each type of clustering and added the cluster id of each data point in that new column. Below, we can see the three new columns added to the original dataset.
 
 ![My Image](images/my-image1.png)
 

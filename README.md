@@ -24,23 +24,11 @@ After applying cluster:
 
 4. This two-similarity measurement is encoded in the data point in place of their respective cluster id. I experimented with a couple of formulas to encode those similarities information. For datapoint di,
 
-1
-
-Di[cluster\_algo] =
-
-Vote from cluster\_algo member+cluster similarity coefficient
-
-Di[cluster\_algo] = Vote from cluster\_algomember × cluster similarity coefficient
-
-1
-
-Di[cluster\_algo] =
-
-× cluster similarity coefficient
-
-Vote from cluster\_algo member
+![My Image](images/my-image5.png)
 
 \5. With this we get new feature vector.
+
+![My Image](images/my-image6.png)
 
 \6. Subsequently, this new feature vector has been used to perform KNN classification.
 

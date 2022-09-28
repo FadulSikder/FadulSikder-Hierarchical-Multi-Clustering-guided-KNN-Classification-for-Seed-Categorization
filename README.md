@@ -1,4 +1,4 @@
-# FadulSikder-Hierarchical-Multi-Clustering-guided-KNN-Classification-for-Seed-Categorization
+# Hierarchical-Multi-Clustering-guided-KNN-Classification-for-Seed-Categorization
 
 **Description:**
 

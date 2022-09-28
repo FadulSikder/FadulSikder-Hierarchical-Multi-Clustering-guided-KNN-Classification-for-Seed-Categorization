@@ -21,7 +21,9 @@ are average (weighted average), single, and complete. Then, I created a new colu
 vector for each type of clustering and added the cluster id of each data point in that new column.
 
 Below, we can see the three new columns added to the original dataset.
+
 ![My Image](images/my-image1.png)
+
 ![My Image](images/my-image2.jpg)
 
 \2. After this, I calculated two parameters to determine the similarity between clusters and a data point.
